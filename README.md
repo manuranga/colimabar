@@ -40,3 +40,7 @@ Logs: `~/Library/Logs/colimabar.log`
 
 - `status_interval`: seconds between polls
 - `busy_cpu`: VM CPU percent on the Mac above which the menu bar shows it
+
+## License
+
+[Apache 2.0](LICENSE)
