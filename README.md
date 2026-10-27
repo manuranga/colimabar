@@ -2,7 +2,7 @@
 
 Menu bar status of [colima](https://github.com/abiosoft/colima): running containers, and what the VMs cost the Mac. The menu has a section per running profile, its containers grouped by k3d cluster and compose project, busiest first.
 
-![UI preview](TODO)
+<img width="2080" height="1290" alt="ui-preview" src="https://github.com/user-attachments/assets/617b848c-9c9c-4a9e-bbeb-d3e04b900b95" />
 
 "On Mac" is the VM's Virtualization.framework process, so its RAM is what macOS sees, often the VM's whole memory even when containers use little. Container CPU and memory come from the Docker API on `~/.colima/<profile>/docker.sock`, as in `docker stats`.
 
